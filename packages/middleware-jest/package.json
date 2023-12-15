@@ -1,0 +1,33 @@
+{
+  "name": "@dawnjs/dn-middleware-jest",
+  "version": "2.1.8",
+  "description": "Jest middleware for dawn project's unit-test.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "helpers"
+  ],
+  "homepage": "http://dawnjs.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alibaba/dawn.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "@dawnjs/babel-preset-dawn": "^2.2.1",
+    "babel-jest": "^26.6.3",
+    "core-js": "^3.9.1",
+    "jest": "^26.6.3",
+    "jest-environment-jsdom-fourteen": "^1.0.1",
+    "regenerator-runtime": "^0.13.7",
+    "whatwg-fetch": "^3.6.2"
+  }
+}

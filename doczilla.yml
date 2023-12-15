@@ -1,0 +1,28 @@
+output: ./docs/docs
+
+mode: static
+
+locales:
+  - name: zh
+    text: 中文
+    title: Dawn 
+    links:
+      - text: 首页
+        url: //alibaba.github.io/dawn/
+      - text: GitHub
+        url: //github.com/alibaba/dawn
+      - text: 问题反馈
+        url: //github.com/alibaba/dawn/issues
+    groups:
+      - name: guide
+        text: 使用指南
+      - name: service
+        text: 中心服务
+      - name: middleware
+        text: 常用中间件
+      - name: template
+        text: 常用模板
+
+    docs:
+      - ./docs/markdowns/*.md
+      - './*.md'

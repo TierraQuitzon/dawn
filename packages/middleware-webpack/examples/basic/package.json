@@ -1,0 +1,41 @@
+{
+  "name": "basic-example",
+  "private": true,
+  "scripts": {
+    "start": "dn d",
+    "start:esbuild": "dn run dev:esbuild",
+    "start:swc": "dn run dev:swc",
+    "build": "dn b",
+    "build:esbuild": "dn run build:esbuild",
+    "build:swc": "dn run build:swc"
+  },
+  "dependencies": {
+    "@alifd/next": "^1.22.24",
+    "@babel/runtime-corejs3": "^7.14.0",
+    "abort-controller": "^3.0.0",
+    "d3-hierarchy": "^3.0.1",
+    "mathjs": "^10.0.0",
+    "moment": "^2.29.1",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "@types/d3-hierarchy": "^3.0.2",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "dn-middleware-copy": "^0.2.7",
+    "dn-middleware-i18n": "^1.2.6",
+    "eslint": "^8.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.4.1"
+  }
+}

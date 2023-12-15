@@ -1,0 +1,10 @@
+@import '~@alifd/next/dist/next.css';
+@import './variables.css';
+
+.container {
+  color: var(--color-error);
+
+  & .main {
+    width: 200px;
+  }
+}

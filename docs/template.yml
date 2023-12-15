@@ -1,0 +1,31 @@
+front:
+  location: dn-template-front
+  summary: Blank front end project template
+
+react:
+  location: dn-template-react
+  summary: React project template
+
+vue:
+  location: dn-template-vue
+  summary: Vue project template
+
+node:
+  location: dn-template-node
+  summary: Blank node project template
+
+browser:
+  location: dn-template-browser
+  summary: Blank lib project for browser
+
+middleware:
+  location: dn-template-middleware
+  summary: Dawn middleware project template
+
+middleware-ts:
+  location: dn-template-middleware-ts
+  summary: Dawn middleware project template with typescript
+
+doc:
+  location: dn-template-doc
+  summary: Blank doc project template

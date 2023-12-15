@@ -1,0 +1,96 @@
+dev:
+  - name: '@dawnjs/dn-middleware-lint'
+    noEmit: true
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: development
+    babel:
+      runtimeHelpers: true
+      corejs: 3
+    lint:
+      failOnError: true
+
+dev:esbuild:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: development
+    esbuild:
+      loader: true
+
+dev:swc:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: development
+    swc: true
+
+
+dev:ie11Incompatible:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: development
+    babel:
+      runtimeHelpers: true
+      ie11Incompatible: true
+      corejs: 3
+
+watch:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: development
+    server: false
+    watch: true
+
+build:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: production
+
+build:esbuild:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: production
+    esbuild:
+      loader: true
+      minify: true
+
+build:swc:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: production
+    swc: true
+
+build:ie11Incompatible:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry: ./src/pages/index.tsx
+    env: production
+    babel:
+      runtimeHelpers: true
+      ie11Incompatible: true
+      corejs: 3
+
+build:mpa:
+  - name: i18n
+  - name: $local
+    location: ../../lib/index.js
+    entry:
+      index: ./src/pages/index.tsx
+      about: ./src/pages/about.tsx
+    env: production
